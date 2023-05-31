@@ -22,9 +22,9 @@ public:
     pnh_.getParam("assign_y", assign_y);
     pnh_.getParam("assign_z", assign_z);
 
-    float max_x = 0.5;
+    float max_x = 1.0;
     float max_y = 0.5;
-    float max_z = 1.5;
+    float max_z = 1.85;
     pnh_.getParam("max_x", max_x);
     pnh_.getParam("max_y", max_y);
     pnh_.getParam("max_z", max_z);
